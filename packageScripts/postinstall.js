@@ -19,7 +19,7 @@ console.log(chalk.hex('#f26135')(`
 ╭ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ──────────────────────────────╮
 
         Thanks for installing the latest version
-                of `) + chalk.hex('#ffd200').bold(`eslint-config-auro v${pjson.version}.`) + chalk.hex('#f26135')(`
+            of Auro's `) + chalk.hex('#ffd200').bold(`eslint-config v${pjson.version}.`) + chalk.hex('#f26135')(`
 
 ╰─────────────────────────────── ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─╯
 `)
