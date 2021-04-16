@@ -1,0 +1,64 @@
+{
+  "name": "@aurodesignsystem/eslint-config",
+  "version": "0.0.0",
+  "description": "Custom eslint config for Auro design system development",
+  "author": "Product engineering",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlaskaAirlines/eslint-config-auro"
+  },
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/changelog",
+        {
+          "changelogFile": "./CHANGELOG.md",
+          "changelogTitle": "# Semantic Release Automated Changelog"
+        }
+      ],
+      "@semantic-release/npm",
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "./CHANGELOG.md",
+            "package.json"
+          ]
+        }
+      ],
+      "@semantic-release/github"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "alaska airlines",
+    "auro",
+    "design system",
+    "eslint config"
+  ]
+}
