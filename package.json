@@ -69,7 +69,6 @@
     "eslint config"
   ],
   "scripts": {
-    "postinstall": "node packageScripts/postinstall.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "node packageScripts/postinstall.js"
   }
 }
