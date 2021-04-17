@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: 'eslint-config-auro: [issue summary]'
+title: 'auro-eslint-config: [issue summary]'
 labels: 'Type: Bug, not-reviewed'
 assignees: blackfalcon
 ---

@@ -1,7 +1,7 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: 'eslint-config-auro: [feature summary]'
+title: 'auro-eslint-config: [feature summary]'
 labels: 'Type: Feature, not-reviewed'
 assignees: blackfalcon
 ---

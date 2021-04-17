@@ -1,7 +1,7 @@
 ---
 name: General support
 about: Suggestions that are not related to bugs or new features
-title: 'eslint-config-auro: As a [user] I need help with [issue]'
+title: 'auro-eslint-config: As a [user] I need help with [issue]'
 labels: 'Status: Proposal, not-reviewed'
 assignees: blackfalcon
 ---

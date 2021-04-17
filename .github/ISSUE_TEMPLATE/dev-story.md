@@ -1,7 +1,7 @@
 ---
 name: Development Story
 about: Crate a new user story to address the development process
-title: 'eslint-config-auro; develop [feature]'
+title: 'auro-eslint-config; develop [feature]'
 labels: 'Status: Proposal, not-reviewed'
 ---
 
