@@ -5,7 +5,8 @@ module.exports = {
   },
   "extends": [
     "eslint:recommended",
-    "plugin:lit/recommended"
+    "plugin:lit/recommended",
+    "plugin:lit-a11y/recommended"
   ],
   "globals": {
     "Atomics": "readonly",
@@ -15,7 +16,7 @@ module.exports = {
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": ["lit"],
+  "plugins": ["lit", "lit-a11y"],
   "rules": {
     "accessor-pairs": "error",
     "array-bracket-newline": "error",
