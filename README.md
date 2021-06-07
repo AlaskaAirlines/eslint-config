@@ -5,8 +5,8 @@
 ## Install
 
 [![Build Status](https://img.shields.io/github/workflow/status/AlaskaAirlines/auro-eslint-config/Test%20and%20publish?branch=master&style=for-the-badge)](https://github.com/AlaskaAirlines/auro-eslint-config/actions?query=workflow%3A%22test+and+publish%22)
-[![See it on NPM!](https://img.shields.io/npm/v/@aurodesignsystem/auro-eslint-config?style=for-the-badge&color=orange)](https://www.npmjs.com/package/@aurodesignsystem/auro-eslint-config)
-[![License](https://img.shields.io/npm/l/@aurodesignsystem/auro-eslint-config?color=blue&style=for-the-badge)](https://www.apache.org/licenses/LICENSE-2.0)
+[![See it on NPM!](https://img.shields.io/npm/v/@aurodesignsystem/eslint-config?style=for-the-badge&color=orange)](https://www.npmjs.com/package/@aurodesignsystem/eslint-config)
+[![License](https://img.shields.io/npm/l/@aurodesignsystem/eslint-config?color=blue&style=for-the-badge)](https://www.apache.org/licenses/LICENSE-2.0)
 
 ```shell
 $ npm i @aurodesignsystem/eslint-config
