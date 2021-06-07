@@ -1,6 +1,6 @@
 {
   "name": "@aurodesignsystem/eslint-config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Custom eslint config for Auro design system development",
   "author": "Product engineering",
   "repository": {
