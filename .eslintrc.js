@@ -17,7 +17,7 @@ module.exports = {
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": ["lit", "lit-a11y"],
+  "plugins": ["lit", "lit-a11y", "jsdoc"],
   "rules": {
     "accessor-pairs": "error",
     "array-bracket-newline": "error",
@@ -225,7 +225,6 @@ module.exports = {
     "quotes": "off",
     "radix": "error",
     "require-await": "error",
-    "require-jsdoc": "error",
     "require-unicode-regexp": "error",
     "rest-spread-spacing": ["error", "never"],
     "semi": "off",
@@ -245,7 +244,6 @@ module.exports = {
     "template-curly-spacing": ["error", "never"],
     "template-tag-spacing": ["error", "never"],
     "unicode-bom": ["error", "never"],
-    "valid-jsdoc": "error",
     "vars-on-top": "error",
     "wrap-iife": "error",
     "wrap-regex": "error",
