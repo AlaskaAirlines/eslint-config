@@ -1,4 +1,5 @@
 module.exports = {
+  "ignorePatterns": ["test/*.js", ".eslintrc.js"],
   "env": {
     "browser": true,
     "es6": true
@@ -67,7 +68,7 @@ module.exports = {
     "id-length": "error",
     "id-match": "error",
     "implicit-arrow-linebreak": "error",
-    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "indent": ["error", 2, { "SwitchCase": 1 }, { "ignoredNodes": ["TemplateLiteral > *"] }],
     "indent-legacy": "off",
     "init-declarations": "error",
     "jsx-quotes": "error",
@@ -131,7 +132,13 @@ module.exports = {
     "no-lone-blocks": "error",
     "no-lonely-if": "error",
     "no-loop-func": "error",
-    "no-magic-numbers": "error",
+    "no-magic-numbers": [
+      "error",
+      {
+        "ignore": [0, 1],
+        "ignoreArrayIndexes": true
+      }
+    ],
     "no-mixed-operators": "error",
     "no-mixed-requires": "error",
     "no-multi-assign": "error",
