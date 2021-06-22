@@ -72,7 +72,6 @@ module.exports = {
       }
     ],
     "init-declarations": "error",
-    "jsx-quotes": "error",
     "key-spacing": "off",
     "keyword-spacing": ["error", {
       "after": true,
@@ -104,7 +103,6 @@ module.exports = {
     "no-constructor-return": "error",
     "no-continue": "error",
     "no-div-regex": "error",
-    "no-dupe-else-if": "error",
     "no-duplicate-imports": "error",
     "no-else-return": "error",
     "no-empty-function": "off",
@@ -118,7 +116,6 @@ module.exports = {
     "no-implicit-coercion": "error",
     "no-implicit-globals": "error",
     "no-implied-eval": "error",
-    "no-import-assign": "error",
     "no-inline-comments": "error",
     "no-invalid-this": "off",
     "no-iterator": "error",
@@ -157,7 +154,6 @@ module.exports = {
     "no-script-url": "error",
     "no-self-compare": "error",
     "no-sequences": "error",
-    "no-setter-return": "error",
     "no-shadow": "error",
     "no-tabs": "error",
     "no-template-curly-in-string": "error",
