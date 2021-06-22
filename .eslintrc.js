@@ -63,7 +63,14 @@ module.exports = {
     "id-length": "error",
     "id-match": "error",
     "implicit-arrow-linebreak": "error",
-    "indent": ["error", 2, { "SwitchCase": 1 }, { "ignoredNodes": ["TemplateLiteral > *"] }],
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1,
+        "ignoredNodes": ["TemplateLiteral > *"]
+      }
+    ],
     "init-declarations": "error",
     "jsx-quotes": "error",
     "key-spacing": "off",
