@@ -1,5 +1,22 @@
 # Semantic Release Automated Changelog
 
+# [1.2.0](https://github.com/AlaskaAirlines/eslint-config-auro/compare/v1.1.0...v1.2.0) (2021-07-01)
+
+
+### Bug Fixes
+
+* **rules:** remove deprecated rules [#5](https://github.com/AlaskaAirlines/eslint-config-auro/issues/5) ([7ce3910](https://github.com/AlaskaAirlines/eslint-config-auro/commit/7ce3910ef1bbd22ce0023b80a72052ea7f633794))
+* **rules:** remove rules set to off ([814690f](https://github.com/AlaskaAirlines/eslint-config-auro/commit/814690f56d7181a99b78769153eba966a44bbb4f))
+* **rules:** remove rules supported by eslint:recommended ([c97182a](https://github.com/AlaskaAirlines/eslint-config-auro/commit/c97182a8d9a9ea2ef161c14a73521b076f1e8079))
+* **rules:** remove unwanted restrictions ([04c3ce2](https://github.com/AlaskaAirlines/eslint-config-auro/commit/04c3ce2a6efa5bf62274821e902c12f9fb255273))
+
+
+### Features
+
+* **rules:** add in jsdoc rules ([46c3c91](https://github.com/AlaskaAirlines/eslint-config-auro/commit/46c3c91512e03aa4242aa4a68182fdad80761789))
+* **rules:** remove deprecated jsdoc rules [#6](https://github.com/AlaskaAirlines/eslint-config-auro/issues/6) ([4d41d24](https://github.com/AlaskaAirlines/eslint-config-auro/commit/4d41d24a90c949630c998411be1be25f3bbee657))
+* **rules:** update indent and magic numbers rules [#4](https://github.com/AlaskaAirlines/eslint-config-auro/issues/4) ([66cf8ed](https://github.com/AlaskaAirlines/eslint-config-auro/commit/66cf8edca51321e118583235594bbaf9fd6c6147))
+
 # [1.1.0](https://github.com/AlaskaAirlines/eslint-config-auro/compare/v1.0.0...v1.1.0) (2021-06-07)
 
 
