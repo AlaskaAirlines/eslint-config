@@ -17,7 +17,10 @@ module.exports = {
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": ["lit", "lit-a11y", "jsdoc"],
+  "plugins": ["lit", "lit-a11y", "jsdoc", "detect-bad-words"],
+  "settings": {
+    "customBadWords": ["wtf", "fck", "fluck", "frick", "sht", "poo", ]
+  },
   "rules": {
     "accessor-pairs": "error",
     "array-bracket-newline": "error",
@@ -46,6 +49,8 @@ module.exports = {
     "curly": "error",
     "default-case": "error",
     "default-param-last": "error",
+    "detect-bad-words/in-code": "error",
+    "detect-bad-words/in-comment": "error",
     "dot-location": "error",
     "dot-notation": "error",
     "eol-last": ["error", "always"],
