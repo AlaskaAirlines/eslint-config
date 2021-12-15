@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [1.3.0](https://github.com/AlaskaAirlines/eslint-config-auro/compare/v1.2.0...v1.3.0) (2021-12-15)
+
+
+### Features
+
+* add support for bad-words linter ([482ce47](https://github.com/AlaskaAirlines/eslint-config-auro/commit/482ce47f7c29ce57724b84308b286232709c1fb2))
+
 # [1.2.0](https://github.com/AlaskaAirlines/eslint-config-auro/compare/v1.1.0...v1.2.0) (2021-07-01)
 
 
