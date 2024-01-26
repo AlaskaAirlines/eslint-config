@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [1.3.1](https://github.com/AlaskaAirlines/eslint-config-auro/compare/v1.3.0...v1.3.1) (2024-01-26)
+
+
+### Performance Improvements
+
+* update to support node 20 ([8ceb4fd](https://github.com/AlaskaAirlines/eslint-config-auro/commit/8ceb4fd94fcb0f56bf83a650526e90d1e810f536))
+
 # [1.3.0](https://github.com/AlaskaAirlines/eslint-config-auro/compare/v1.2.0...v1.3.0) (2021-12-15)
 
 
