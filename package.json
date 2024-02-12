@@ -5,7 +5,7 @@
   "author": "Product engineering",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AlaskaAirlines/eslint-config-auro"
+    "url": "https://github.com/AlaskaAirlines/eslint-config"
   },
   "engines": {
     "node": "^18 || ^20"
