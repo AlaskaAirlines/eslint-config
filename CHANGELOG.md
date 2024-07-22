@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [1.3.2](https://github.com/AlaskaAirlines/eslint-config/compare/v1.3.1...v1.3.2) (2024-07-22)
+
+
+### Performance Improvements
+
+* update eslint dependencies ([5709c4e](https://github.com/AlaskaAirlines/eslint-config/commit/5709c4e4594702e534a2a81d2e99cb697bc80d2e))
+
 ## [1.3.1](https://github.com/AlaskaAirlines/eslint-config-auro/compare/v1.3.0...v1.3.1) (2024-01-26)
 
 
