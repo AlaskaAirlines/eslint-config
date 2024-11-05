@@ -78,6 +78,7 @@
   ],
   "scripts": {
     "postinstall": "node packageScripts/postinstall.js",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test": ""
   }
 }
