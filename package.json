@@ -13,20 +13,21 @@
   "main": "index.js",
   "license": "Apache-2.0",
   "dependencies": {
-    "chalk": "^4.1.1",
     "eslint-plugin-detect-bad-words": "^1.0.7",
-    "eslint-plugin-jsdoc": "^48.8.3",
+    "eslint-plugin-jsdoc": "^50.4.3",
     "eslint-plugin-lit": "^1.14.0",
     "eslint-plugin-lit-a11y": "^4.1.4"
   },
   "devDependencies": {
-    "@commitlint/cli": "^18.6.0",
-    "@commitlint/config-conventional": "^18.6.0",
+    "@aurodesignsystem/auro-library": "^2.11.0",
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "@semantic-release/npm": "^11.0.2",
-    "husky": "^4.3.8",
-    "semantic-release": "^23.0.0"
+    "@semantic-release/npm": "^12.0.1",
+    "chalk": "^4.1.1",
+    "husky": "^9.1.6",
+    "semantic-release": "^24.2.0"
   },
   "husky": {
     "hooks": {
@@ -76,6 +77,8 @@
     "eslint config"
   ],
   "scripts": {
-    "postinstall": "node packageScripts/postinstall.js"
+    "postinstall": "node packageScripts/postinstall.js",
+    "prepare": "husky",
+    "preCommit": "node ./node_modules/@aurodesignsystem/auro-library/scripts/build/pre-commit.mjs"
   }
 }
