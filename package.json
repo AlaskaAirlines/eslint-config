@@ -78,7 +78,6 @@
   ],
   "scripts": {
     "postinstall": "node packageScripts/postinstall.js",
-    "prepare": "husky",
-    "preCommit": "node ./node_modules/@aurodesignsystem/auro-library/scripts/build/pre-commit.mjs"
+    "prepare": "husky"
   }
 }
