@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [1.3.4](https://github.com/AlaskaAirlines/eslint-config/compare/v1.3.3...v1.3.4) (2025-02-28)
+
+
+### Performance Improvements
+
+* update node engine requirement ([c10498e](https://github.com/AlaskaAirlines/eslint-config/commit/c10498ec2094c79aaa54859978a15e3ec977bd28))
+
 ## [1.3.3](https://github.com/AlaskaAirlines/eslint-config/compare/v1.3.2...v1.3.3) (2024-11-05)
 
 
