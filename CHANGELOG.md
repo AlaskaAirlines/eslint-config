@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [1.3.5](https://github.com/AlaskaAirlines/eslint-config/compare/v1.3.4...v1.3.5) (2025-07-08)
+
+
+### Bug Fixes
+
+* add TemplateResult to defined types ([965b2e0](https://github.com/AlaskaAirlines/eslint-config/commit/965b2e053cf8f82cc549e25cb6fd2fc65faf2540))
+
 ## [1.3.4](https://github.com/AlaskaAirlines/eslint-config/compare/v1.3.3...v1.3.4) (2025-02-28)
 
 
