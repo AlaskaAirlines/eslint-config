@@ -80,7 +80,9 @@ module.exports = {
     "jsdoc/empty-tags": 1,
     "jsdoc/implements-on-classes": 1,
     "jsdoc/no-multi-asterisks": 1,
-    "jsdoc/no-undefined-types": 1,
+    "jsdoc/no-undefined-types": [1, {
+      "definedTypes": [ "TemplateResult" ]
+    }],
     "jsdoc/require-asterisk-prefix": 1,
     "jsdoc/require-description-complete-sentence": 1,
     "jsdoc/require-jsdoc": 1,
